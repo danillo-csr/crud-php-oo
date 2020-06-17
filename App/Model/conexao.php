@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Model;
+
 class Conexao{
 
     private static $instance;
@@ -18,6 +20,5 @@ class Conexao{
             //se já houver a instancia, ela será retornada
             return self::$instance;
         }
-
     }
 }
